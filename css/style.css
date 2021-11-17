@@ -16,6 +16,8 @@ body{
 }
 
 
+/* NAV-BAR */
+
 nav{
     display: flex;
     width: 100%;
@@ -131,112 +133,6 @@ nav ul .login-button{
     background-color: #F57C00;
     display: flex;
 } 
-
-@media screen and (max-width : 1530px){
-    nav{
-        display: inline-flex;
-        padding: 0;
-    }
-    nav ul li a, .login-button{
-        display: none;
-    }
-    nav .search-box{
-        display: 33%;
-    }
-
-    nav .btn{
-        margin: 5px;
-    }
-
-    nav .icon{
-        width: 137px;
-    }
-}
-
-@media screen and (max-width : 910px){
-    nav .search-box .search-input-class{
-        display: none;
-    } 
-    nav .search-box {
-            background-color:green ;
-            background: grey;
-            color: hotpink;
-    }
-}
-
-/* 
-.header-container{
-    height: 100px;
-    width: 100%;
-    background-color: #243C6E;
-    padding: 5px;
-}
-
-.header-container h2{
-    color: #E0E0E0;
-    padding-inline-start: 20px;
-}
-
-nav{
-    display: flex;
-    padding: 10px 20px;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav img{
-    width: 150px;
-    height: 50px;
-}
-
-.nav-links{
-    flex: 1;
-    text-align: right;
-}
-
-.nav-links .searchbar{
-    float: left;
-    padding: 200px;
-}
-
-.nav-links ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 8px 12px;
-    position: relative;
-    
-}
-
-.nav-links ul li a{
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-.nav-links ul li .search-box{
-    height: 40px;
-    width: 600px;
-}
-
-.nav-links ul li .span{
-    color: white;
-}
-
-.nav-links ul li a:hover{
-    color:white;
-    font-weight: 800;
-}
-
-.nav-links ul li .login-button{
-    color: white;
-    height: 40px;
-    width: auto;
-    display: block;
-    padding: 10px;
-    border-radius: 10%;
-    background-color: #F57C00;
-}
- */
 
 
 
@@ -626,3 +522,38 @@ ul{
         width: 50%;
     }
   }
+
+
+  /* Nav-Bar */
+
+  @media screen and (max-width : 1530px){
+    nav{
+        display: inline-flex;
+        padding: 0;
+    }
+    nav ul li a, .login-button{
+        display: none;
+    }
+    nav .search-box{
+        display: 33%;
+    }
+
+    nav .btn{
+        margin: 5px;
+    }
+
+    nav .icon{
+        width: 137px;
+    }
+}
+
+@media screen and (max-width : 910px){
+    nav .search-box .search-input-class{
+        display: none;
+    } 
+    nav .search-box {
+            background-color:green ;
+            background: grey;
+            color: hotpink;
+    }
+}
